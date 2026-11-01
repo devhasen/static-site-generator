@@ -1,0 +1,9 @@
+{
+  "name": "static-site-generator",
+  "version": "1.0.0",
+  "description": "Generate a static site from Markdown files",
+  "main": "dist/index.js",
+  "bin": { "ssg": "dist/index.js" },
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0" }
+}
